@@ -1,0 +1,20 @@
+git config --global http.proxy http://<emp_id>:<pwd>@proxy.cognizant.com:6050
+git config --global user.name <git user name>
+git config --global user.email <pji mail id>
+git config --system core.longpaths true
+
+$ git init <dir>
+$ git clone <repo>
+$ git checkout <br_name>           -              to swith branch
+$ git checkout -b branch <new_branch> -              b for new branch
+$ git branch -d <branch_name> -              d for delete, D if the branch contains any un-merged commit
+$ git fetch origin
+$ git pull origin pji_br_name
+$ git status
+$ got add <file name>
+$ git commit -m "<msg>"
+$ git stash save [saves local changes
+$ git stash apply                [re-apply local changes]
+$ git push origin <branch>
+
+
